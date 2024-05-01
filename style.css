@@ -1,0 +1,22 @@
+.whole-page {
+    display: flex;
+    flex-direction: column;
+}
+.top-bar,
+.upper-banner,
+.footer {
+    background-color: #1F2937;
+}
+.content-text {
+    background-color: #E5E7EB;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-link,
+.secondary-text,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
