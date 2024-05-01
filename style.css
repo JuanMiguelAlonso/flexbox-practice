@@ -1,10 +1,13 @@
+/* Elimina el margen por defecto que añaden algunos navegadores */
 body {
     margin: 0;
 }
+/* Contenedor general de la web */
 .whole-page {
     display: flex;
     flex-direction: column;
 }
+
 .header-link {
     width: 140px;
     height: 30px;
@@ -22,9 +25,25 @@ body {
 .content-text {
     background-color: #E5E7EB;
 }
+.top-bar {
+    gap: 12px;
+}
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 24px 24px;
+    margin-right: auto;
+}
+.upper-banner-left {
+    width: 50%;
+    padding: 25px 10px 25px 100px;
+}
+.upper-banner-right {
+    width: 50%;
+    padding: 25px 100px 25px 10px;
+}
+.content h2 {
+    text-align: center;
 }
 .main-text {
     font-size: 48px;
@@ -42,4 +61,17 @@ body {
 .footer {
     font-size: 18px;
     color: #E5E7EB;
+}
+.footer p {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0;
+}
+ul a {
+    color: inherit;
+    text-decoration: none;
 }
